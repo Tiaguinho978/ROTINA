@@ -3,11 +3,12 @@
     margin: 0px;
     padding: 0px;
 }
-header,main{
+table,td,th,tr,h1,ul,li,main,header{
     min-width: 320px;
     max-width: 800px;
-
 }
+
+table,td,th,tr,h1,ul,li
 header {
     background-color:#8A2BE2;
     text-align: center;
