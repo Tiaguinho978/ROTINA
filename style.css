@@ -1,0 +1,109 @@
+@charset "UTF-8";
+* { box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color:#1F3623;
+    text-align: right;
+    padding: 15px;
+}
+
+
+.pag{
+    color: white;
+    font-family:Courier New, monospace;
+    font-size: 150%;
+    padding: 20px;
+    margin: 0px 10px 5px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0,5s;
+    }
+ nav a:hover {
+        color:  #7DDB8E;
+    }
+
+body{background-color: #00000030;}
+
+main{font-family: URW Chancery L, cursive;
+}
+.centro1{ font-size: 38px;
+    text-indent: 4%;
+    color:#000000;
+    text-shadow: 2px 2px 1px  #8CF59F;
+    font-family: URW Chancery L, cursive;
+}
+
+h1,h2,h3{text-align: center;
+}
+
+#headerrotina{background-image: url(imagens/imgrotina.jpg);
+  height: 70px;
+  padding: 10px;}
+
+#headeradm{background-image: url(imagens/imgadm.png);
+height: 70px;
+padding: 10px;
+}
+
+#headeringles{background-image: url(imagens/imgingles.png);
+  height: 70px;
+  padding: 10px;}
+
+#headerfinanças{background-image: url(imagens/imgfinanças.jpg);
+  height: 70px;
+  padding: 10px;}
+
+.materias{width: 300px; margin: 0 auto;
+  list-style-type:none;
+ background-color: aliceblue;
+ border-radius: 10px;
+  }
+
+
+  .lf2{color: rgb(0, 0, 0);
+    font-family:Courier New, monospace;
+    font-size: 130%;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0,5s;
+    
+  }
+
+  .lf{ color: rgb(244, 239, 239);
+    font-family:Courier New, monospace;
+    font-size: 150%;
+    padding: 20px;
+    margin: 0px 10px 5px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0,5s;
+  
+  }
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #1F3623;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #1F3623;
+  }
+
+ .listacenter{ background-color:#1F3623 ;
+  text-align: center;
+  
+}
