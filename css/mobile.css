@@ -1,0 +1,21 @@
+
+header{
+    min-width: 915px;
+    max-width: 915px;
+  
+}
+.listacenter{
+    min-width: 915px;
+    max-width: 915px;
+    height: 70px;
+}
+
+main{
+    min-width: 320px;
+    max-width: 915px;
+}
+
+#conteiner{
+    overflow-x: auto;
+  }
+   
