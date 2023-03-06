@@ -1,0 +1,157 @@
+@charset "UTF-8";
+* { box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#items{text-align: right;
+  background-image: linear-gradient( to bottom, #520808,#711515);
+    padding: 15px;
+}
+
+.pag{
+    color: white;
+    font-family:Courier New, monospace;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px 10px 5px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0,5s;
+    
+    }
+ nav a:hover {
+        color:  #050101;
+    }
+
+
+
+
+main{
+  background-color: #ffffff;
+  margin: auto;
+  margin-bottom: 30px;
+  min-height: 320px;
+  max-width: 1200px;
+  padding: 30px;
+  padding-top: 30px;
+  box-shadow: 0px 4px 15px rgba(5, 5, 5, 0.4);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+  
+}
+
+#headerrotina{background-image: url(imagens/imgrotina.jpg);
+  height: 70px;
+  padding: 10px;
+}
+#headeradm{background-image: url(imagens/imgadm.png);
+height: 70px;
+padding: 10px;
+}
+#headeringles{background-image: url(imagens/imgingles.png);
+  height: 70px;
+  padding: 10px;
+}
+#headerfinanças{background-image: url(imagens/imgfinanças.jpg);
+  height: 70px;
+  padding: 10px;
+}
+
+.bttopo{ 
+background-color: #8F1818;
+width: 3cm;
+padding: 4px;
+border-radius: 8%;
+margin: 0 auto;
+}
+
+main > div > aside > a {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: none;
+  color: rgb(252, 247, 247);
+}
+
+main >  div >  aside > a:hover {
+  color: #050101;
+}
+
+.centro1{ font-size: 38px;
+    text-indent: 4%;
+    color:#000000;
+    text-shadow: 2px 2px 1px  #8F1818;}
+
+h1{font-size: 38px;
+  text-align: center;
+}
+h2{font-size: 30px;
+  text-align: center;
+  color: #8F1818;
+}
+.prof{text-indent: 65%;
+}
+h3{font-size: 28px;
+  text-indent: 12%;
+}
+li{font-size: 18px;
+}
+ul{list-style-type: none;
+}
+  
+
+#menu{
+  background-color: #0033527f;
+  min-width: 270px;
+  max-width: 410px;
+  border-radius: 2%;
+  
+}
+  .lf{ color: #050101;  
+    font-family:Courier New, monospace;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px 10px 5px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0,5s;
+  }
+
+ .materias{
+      list-style-type:none;
+      text-indent: 40%;
+      }
+
+  .lf2{color: #000000;
+    font-family:Courier New, monospace;
+    font-size: 130%;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0,5s;
+  }
+  main> nav a:hover{
+    color: #FF1212;
+  }
+
+.eoch{text-indent: 7%;}
+ 
+table {
+    border-collapse: collapse;
+  }
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+  }
+th{
+  background-color: #520808;
+}
+.h{background-color: #520808;
+}
+#container{
+  overflow-x: auto;
+}
